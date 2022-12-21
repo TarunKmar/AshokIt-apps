@@ -1,0 +1,21 @@
+plan:
+  message:
+    planDeletedsucc: plan deleted successfully
+    plansaveFail: plan saved failed
+    plansavesucc: plan saved successfully by tk
+    planstatuschange: plan status change successfully
+    planstatuschangeFail: plan status change failed
+    planupdateFail: plan updated  Failed
+    planupdatedsucc: plan updated successfully
+
+server:
+  port: 3035
+  
+  spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: ashokit
+    url: jdbc:h2:mem:testdb
+    username: ashokit
+    
+  
